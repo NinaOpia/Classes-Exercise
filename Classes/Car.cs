@@ -2,8 +2,10 @@
 {
     internal class Car
     {
-        public string Make { get; internal set; }
-        public string Model { get; internal set; }
-        public int Year { get; internal set; }
+        public int Year { get; set; }
+
+        public string Make { get; set; }
+
+        public string Model { get; set; }
     }
 }
